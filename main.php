@@ -6,7 +6,7 @@ $bob = new User('bob',20);
 
 echo $bob-> selfIntroduction();
 
-$bob->setName('bob.marley');
+$bob->setName('bob・marley');
 $bob->setAge(30);
 
 echo $bob->getName();
@@ -15,3 +15,4 @@ echo $bob->getAge();
 echo "\n";
 
 echo $bob->selfIntroduction(); 
+
